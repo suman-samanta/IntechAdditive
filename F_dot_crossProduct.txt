@@ -1,0 +1,28 @@
+1.Dot Product:
+
+Definition: The dot product, also known as the scalar product or inner product, 
+is an algebraic operation that takes two equal-length sequences of numbers (usually coordinate vectors) and returns a single number.
+
+Use Cases in Graphics:
+Projection: Dot product is used to find the projection of one vector onto another.
+            In computer graphics, this is often used in lighting calculations.
+Angle Between Vectors: The dot product of normalized vectors gives the cosine of the angle between them.
+                       This is used in determining the orientation of objects and in animations.
+
+Sources:https://mathworld.wolfram.com/DotProduct.html
+
+
+2.Cross Product:
+
+Definition: The cross product is a binary operation on two vectors in three-dimensional space,
+            and it results in a vector perpendicular to both input vectors.
+
+
+Use Cases in Graphics:
+Surface Normal: Cross product is frequently used to calculate the normal vector to a surface. 
+               This is crucial in lighting and shading calculations in computer graphics.
+Rotation: Cross product is used in rotation operations,
+           helping determine the axis of rotation and generating rotation matrices.
+
+
+Sources:https://mathworld.wolfram.com/CrossProduct.html
